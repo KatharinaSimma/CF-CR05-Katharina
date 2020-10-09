@@ -1,16 +1,16 @@
 var movieData = `[
     {
         "name": "War Games",
-        "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "img": "./img/Wargames.jpg",
         "link": "src='https://www.imdb.com/title/tt0086567/'",
-        "description": "A young man finds a back door into a military central computer in which reality is confused with game-playing, possibly starting World War III.",
+        "description": "A 17-year-old boy finds a weak point in the military defence system by accident. He thinks he is a playing game but he risks World War III. Machine learning saves the world.",
         "likes": 7,
         "genre": "Thriller",
         "year": "1983"
     },
     {
         "name": "The Net",
-        "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "img": "./img/Netposter1995.jpg",
         "link": "src='https://www.imdb.com/title/tt0113957/'",
         "description": "A computer programmer stumbles upon a conspiracy, putting her life and the lives of those around her in great danger.",
         "likes": 6,
@@ -19,7 +19,7 @@ var movieData = `[
     },
     {
         "name": "Imitation Game",
-        "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "img": "./img/The_Imitation_Game_(2014).png",
         "link": "src='https://www.imdb.com/title/tt2084970/'",
         "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians.",
         "likes": 7,
@@ -28,7 +28,7 @@ var movieData = `[
     },
     {
         "name": "Ghost in the Shell",
-        "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "img": "./img/ghost-in-the-shell-plakat.jpg",
         "link": "src='https://www.imdb.com/title/tt0086567/'",
         "description": "In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.",
         "likes": 6,
@@ -37,7 +37,7 @@ var movieData = `[
         },
     {
         "name": "The Matrix",
-        "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "img": "./img/The_Matrix_Poster.jpg",
         "link": "src='https://www.imdb.com/title/tt0133093/'",
         "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
         "likes": 9,
@@ -46,7 +46,7 @@ var movieData = `[
     },
     {
         "name": "Inception",
-        "img": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "img": "./img/Inception_(2010)_theatrical_poster.jpg",
         "link": "src='https://www.imdb.com/title/tt1375666/'",
         "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
         "likes": 8,
