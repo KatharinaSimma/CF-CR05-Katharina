@@ -1,0 +1,62 @@
+body {
+  color: white;
+}
+
+header h1 {
+  padding: 1rem 1rem 1rem 2rem;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+img {
+  max-height: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  border: 1px solid blue;
+}
+
+nav {
+  background-color: #454545;
+}
+
+nav ul {
+  margin: 0;
+  padding: 1rem 1rem 1rem 2rem;
+}
+
+nav li {
+  display: inline;
+  font-size: 2em;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: #1d2329;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.movieBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1em;
+  border: 1px solid red;
+}
+
+footer h1 {
+  padding: 2rem 1rem 2.5rem 2rem;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
