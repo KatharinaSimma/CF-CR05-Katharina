@@ -7,14 +7,15 @@ for (let i = 0; i < movieData.length; i++){
         
             <img src=${movieData[i].img} class="rounded"></img>
 
-            <div class="font-weight-light">
+            <div class="font-weight-light innerBox">
                 <div class="card-body">
-                <h5 class="card-title">${movieData[i].name}</h5>
-                <p class="card-text">${movieData[i].genre}, ${movieData[i].year}</p>
-                <p class="card-text">${movieData[i].description}</p><br>
-                <span >
-                    <i class="fas fa-thumbs-up"id=${i} ></i>
-                    <span >${movieData[i].likes}</span>              
+                    <h5 class="card-title">${movieData[i].name}</h5>
+                    <p class="card-text">${movieData[i].genre}, ${movieData[i].year}</p>
+                    <p class="card-text">${movieData[i].description}</p>
+                </div>
+                <span class="button">
+                    <i class="fas fa-thumbs-up fa-2x" id=${i} ></i>
+                    <span class="number">${movieData[i].likes}</span>      
                 </span>
             </div>
         </div>   
@@ -25,5 +26,5 @@ for (let i = 0; i < movieData.length; i++){
 $(".fa-thumbs-up").on('click', function(){
     let index = $(this).attr("id");
     let newLikes = movieData[index].likes += 1;
-    $(this).siblings().first().html(`${newLikes}`);
+    $(this).siblings().last().html(`${newLikes}`);
 });

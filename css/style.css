@@ -50,9 +50,6 @@ main h1 {
   display: -ms-flexbox;
   display: flex;
   padding: 1em;
-  border: 1px solid gray;
-  -webkit-box-shadow: 2px 2px 2px 2px gray;
-          box-shadow: 2px 2px 2px 2px gray;
 }
 
 .fas {
@@ -60,7 +57,27 @@ main h1 {
 }
 
 .fas:hover {
-  color: blue;
+  color: grey;
+}
+
+.innerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.number {
+  border: 1px solid grey;
+  padding: 0.5rem 1rem .5rem 1rem;
+  margin: 0 0 0 1rem;
+  border-radius: 10px;
 }
 
 footer h1 {
